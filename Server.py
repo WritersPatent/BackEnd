@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from flask_socketio import SocketIO, emit, join_room, leave_room
 import mysql.connector
 
 
@@ -7,6 +8,8 @@ import mysql.connector
 app = Flask(__name__)
 CORS(app)
 
+socketio = SocketIO(app, cors_allowed_origins = "*")
+
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5001)
+    socketio.run(app, debug=True, host="0.0.0.0", port=5001)
