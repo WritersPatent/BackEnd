@@ -1,0 +1,41 @@
+# 프로젝트 설정
+project_name: "korean-text-model"
+run_name: "experiment-1"
+
+# 데이터 경로
+train_path: "train_data/nia_2022_15-1_commonsense_TL.json"
+val_path: "val_data/nia_2022_15-1_commonsense_VL.json"
+
+# 학습 설정
+batch_size: 32
+epochs: 30
+learning_rate: 2e-5
+weight_decay: 0.01
+dropout: 0.3
+early_stopping_patience: 5
+scheduler_patience: 2
+
+# 데이터 설정
+num_classes: 2
+max_length: 512
+num_workers: 4
+
+# 데이터 증강
+use_augmentation: true
+
+# 모델 설정
+model_name: "klue/bert-base"  # classification
+# model_name: "skt/kogpt2-base-v2"  # generation
+
+# 저장 설정
+save_dir: "models"
+save_name: "best_model.pth"
+
+# GPU 설정
+use_gpu: true
+cuda_visible_devices: "0"  # 사용할 GPU 인덱스
+gpu_memory_fraction: 0.9   # GPU 메모리 사용 비율
+
+# 데이터 컬럼 설정
+text_column: "text"  # 또는 실제 텍스트 컬럼명
+label_column: "label"  # 또는 실제 레이블 컬럼명
