@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.11">
+  <diagram name="페이지-1" id="mIPZ_vh6WSpyvgboC66F">
+    <mxGraphModel dx="786" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MmylaL_3K8-a4_gixo-8-1" value="작가" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-2" value="시스템" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-3" value="AI 엔진" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-4" value="데이터베이스" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-2" target="MmylaL_3K8-a4_gixo-8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-2" target="MmylaL_3K8-a4_gixo-8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-2" target="MmylaL_3K8-a4_gixo-8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-8" value="사용자 증" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-9" target="MmylaL_3K8-a4_gixo-8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15.000000000000002;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-9" target="MmylaL_3K8-a4_gixo-8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-9" value="작품 관리" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-10" value="문체 변환" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-12" value="AI 모델 학습" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="760" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-13" value="사용자" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="680" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-14" value="작룸" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="680" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-15" value="모델" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-1" target="MmylaL_3K8-a4_gixo-8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-4" target="MmylaL_3K8-a4_gixo-8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-9" target="MmylaL_3K8-a4_gixo-8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-3" target="MmylaL_3K8-a4_gixo-8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmylaL_3K8-a4_gixo-8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="MmylaL_3K8-a4_gixo-8-3" target="MmylaL_3K8-a4_gixo-8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
